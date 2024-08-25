@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css">
+   
 </head>
 <body>
     <form>
@@ -16,11 +18,14 @@
         <label for="username">Username:</label>
         <input type="text" id="username" placeholder="Enter your username" required> 
         <br>
-        <label for="date of bitrh">Date of birth:</label>
-        <input type="date" id="dateofbirth">
-        <br>
         <label for="email">Email:</label>
         <input type="email" id="email" placeholder="Enter your email" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Enter your password">
+        <br>
+        <label for="date of bitrh">Date of Birth:</label>
+        <input type="date" id="dateofbirth">      
         <br>
         <label for="file">File:</label>
         <input type="file" id="file"  multiple required>
@@ -50,15 +55,12 @@
             <option value="UK">United Kingdom</option>
         </select>
         <br>
-        <label for="password">Password:</label>
-        <input type="password" placeholder="Enter your password">
-        <br>
         <div class="tacbox">
             <input id="checkbox" type="checkbox">
             <label for="checkbox">I agree 
             <a href="terms-and-conditions-template.docx">Terms and Conditions</a> </label>
         </div>
-        <input type="submit" value="Submit">  
+        <input type="submit" value="SUBMIT">  
     </form>
 </body>
 </html>
